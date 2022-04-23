@@ -19,6 +19,6 @@ public class RecursivePow {
         int base = scan.nextInt();
         System.out.print("Taban değeri giriniz : ");
         int pow = scan.nextInt();
-        System.out.println(gettingBase(base, pow));
+        System.out.println("Sonuç : " + gettingBase(base, pow));
     }
 }
